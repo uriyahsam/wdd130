@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact White Water Rafting - Get in touch for reservations, inquiries, or feedback.">
+  <meta name="author" content="Uriyah Sam">
+  <title>Contact Us - White Water Rafting</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+      <img src="images/logo.png" alt="Company Logo" class="logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <h1 class="contact-title">Contact Us</h1>
+
+    <!-- COMPANY INFO -->
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>Have questions? Reach out to us!</p>
+      <p><strong>Address:</strong> 123 River Adventure St, Rapids City, CO 80521</p>
+      <p><strong>Phone:</strong> (555) 123-4567</p>
+      <p><strong>Email:</strong> contact@whitewaterrafting.com</p>
+      
+      <!-- Google Map -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508398!2d-122.40107348468104!3d37.789874579757664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064b7b8f079%3A0x3b497d6c8a2bbf76!2sWhite%20Water%20Rafting!5e0!3m2!1sen!2sus!4v1614096277923!5m2!1sen!2sus" 
+          width="100%" height="300" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- EMPLOYEE PROFILES -->
+    <section class="team">
+      <h2>Meet Our Team</h2>
+      <div class="team-container">
+        <figure>
+          <img src="images/employee1.jpg" alt="John Doe - Rafting Guide">
+          <figcaption>John Doe - Rafting Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.jpg" alt="Jane Smith - Adventure Coordinator">
+          <figcaption>Jane Smith - Adventure Coordinator</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.jpg" alt="Michael Brown - Safety Instructor">
+          <figcaption>Michael Brown - Safety Instructor</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <fieldset>
+          <legend>Purpose of Inquiry:</legend>
+          <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+          <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+          <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+        </fieldset>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <label>
+          <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+        </label>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 White Water Rafting Co. | Designed by Uriyah.</p>
+    <div class="social">
+      <a href="https://facebook.com">
+        <img src="images/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.png" alt="Instagram">
+      </a>
+    </div>
+    <a href="images/contact-wireframe.png">View Contact Page Wireframe</a>
+  </footer>
+</body>
+</html>
